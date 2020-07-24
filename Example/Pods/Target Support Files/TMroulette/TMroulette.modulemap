@@ -1,0 +1,6 @@
+framework module TMroulette {
+  umbrella header "TMroulette-umbrella.h"
+
+  export *
+  module * { export * }
+}

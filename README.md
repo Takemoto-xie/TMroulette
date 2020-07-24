@@ -22,7 +22,7 @@ pod 'TMroulette'
 
 ## Author
 
-1085192695@qq.com, 1085192695@qq.com
+1085192695@qq.com
 
 ## License
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TMroulette'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TMroulette.'
+  s.summary          = 'A custom roulette.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1085192695@qq.com/TMroulette'
+  s.homepage         = 'https://github.com/Takemoto-xie/TMroulette'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1085192695@qq.com' => '1085192695@qq.com' }
-  s.source           = { :git => 'https://github.com/1085192695@qq.com/TMroulette.git', :tag => s.version.to_s }
+  s.author           = { '' => '1085192695@qq.com' }
+  s.source           = { :git => 'https://github.com/Takemoto-xie/TMroulette.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TMroulette/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TMroulette' => ['TMroulette/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TMroulette' => ['TMroulette/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

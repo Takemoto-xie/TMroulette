@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TMroulette (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TMroulette (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TMroulette:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TMroulette: c799ddb261499bc421958350b4e7c0534dac3f1c
+
+PODFILE CHECKSUM: cf60b20c89621e7cd0d77c661ebc0cf61feabbb1
+
+COCOAPODS: 1.9.3
