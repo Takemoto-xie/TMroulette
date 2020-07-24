@@ -6,7 +6,8 @@
 //  Copyright (c) 2020 1085192695@qq.com. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+#import "TMrouletteView.h"
 
 @interface TMViewController : UIViewController
 
